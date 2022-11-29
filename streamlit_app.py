@@ -1,6 +1,6 @@
 import streamlit
 
-streamlit.title('My Parents New Healthy Diner')
+streamlit.title('My Moms New Healthy Diner')
 
 streamlit.header('Breakfast Favorites')
 streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
@@ -19,5 +19,4 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado',
 # Display the table on the page
 streamlit.dataframe(my_fruit_list)
 
-streamlit.title('My Mom's New Healthy Diner')
 
